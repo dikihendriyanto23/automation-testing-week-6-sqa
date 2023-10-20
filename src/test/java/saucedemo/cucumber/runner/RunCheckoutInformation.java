@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features= {"src\\test\\java\\saucedemo\\cucumber\\resources\\features\\Login.feature"},
+        features= {"src\\test\\java\\saucedemo\\cucumber\\resources\\features\\CheckoutInformation.feature"},
         glue= {"saucedemo.cucumber.stepDef"},
-        plugin = {"html:target/HTML_reportLogin.html"})
-public class RunLogin {
+        plugin = {"html:target/HTML_reportCheckoutInformation.html"})
+public class RunCheckoutInformation {
 
 }
