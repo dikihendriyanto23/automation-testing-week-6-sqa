@@ -22,7 +22,6 @@ public class Login {
         driver.get(baseUrl);
 
         String loginLogo = driver.findElement(By.className("login_logo")).getText();
-        System.out.println(loginLogo);
         Assert.assertEquals(loginLogo, "Swag Labs");
     }
 
